@@ -1,6 +1,5 @@
 ---
 title: Introduction
-categories: [Introduction, Non-Technical]
 ---
 
 
