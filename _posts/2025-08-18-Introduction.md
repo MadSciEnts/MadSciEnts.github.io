@@ -1,6 +1,8 @@
 ---
 title: Introduction
-author: <SW>   
+author: <SW>
+categories: [nonTech]
+tags: [intro]
 ---
 
 
