@@ -1,8 +1,8 @@
 ---
 title: Introduction
-date: 2025-08-18 18:00:00 +/-TTTT
+#date: 2025-08-18 18:00:00 +/-TTTT
 categories: [Introduction, Non-Technical]
-tags: [intro]     # TAG names should always be lowercase
+#tags: [TAG]     # TAG names should always be lowercase
 ---
 
 
