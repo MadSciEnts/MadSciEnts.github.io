@@ -3,7 +3,6 @@ title: Introduction
 author: <SW>
 categories: [nonTech]
 tags: [intro]
-media_subpath: /media/
 ---
 
 While my day job has been primarily in VFX/Animation for the past 20+ years,
