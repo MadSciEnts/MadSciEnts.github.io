@@ -7,8 +7,15 @@ media_subpath: /media/
 ---
 
 
-This is some test text
-Introduction will go here
+TODO:
+
+Write introduction text.
+
+What this blog is about.
+
+Basic stuff about me and what I've been doing.
+
+What interestes me.
 
 yadda yadda blah blah
-![Desktop View](/tessendorf_waves_v001.gif){: w="512" h="262" }
+
