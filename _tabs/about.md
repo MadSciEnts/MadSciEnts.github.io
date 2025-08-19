@@ -3,8 +3,9 @@
 icon: fas fa-info-circle
 order: 4
 ---
-Sci-Ents:
--The Science of Entertainment
+Mad-Sci-Ents:
+
+-The Maddening Science of Entertainment
 
 
 I'm a 20+ yr veteran of the VFX/Animation industry.
