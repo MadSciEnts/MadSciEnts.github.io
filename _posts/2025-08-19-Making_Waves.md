@@ -10,8 +10,8 @@ Explorations into Unity and wave simulations.
 
 
 Wave simulations in games are always tricky.
-It's real time and needs to be efficient.
-
+>It's real time and needs to be efficient.
+{: .prompt-tip }
 
 My goal was two fold.
 
@@ -44,10 +44,8 @@ Unfortunately, this was well over a decade ago, and the experimental Unity Tesse
 
 But I did find this amazing post which presents an even more efficient solution!
 
-Please check out his GIT repo containing a Unity project.
-
-<https://antoniospg.github.io/UnityOcean/OceanSimulation.html>
-
+>Please check out his GIT repo containing a Unity project. <https://antoniospg.github.io/UnityOcean/OceanSimulation.html>
+{: .prompt-tip }
 
 This was basically my starting point.  What I was trying to explore was not impossible.
 
