@@ -2,7 +2,7 @@
 title: Introduction
 author: <SW>
 categories: [nonTech]
-tags: [intro]
+
 ---
 
 While my day job has been primarily in VFX/Animation for the past 20+ years,
