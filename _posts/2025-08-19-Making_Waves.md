@@ -1,8 +1,8 @@
 ---
 title: Making Waves
 author: <SW>
-categories: [tessendorf]
-tags: [technical, unity, water]
+categories: [tessendorf,water]
+tags: [unity]
 media_subpath: /media/
 ---
 
