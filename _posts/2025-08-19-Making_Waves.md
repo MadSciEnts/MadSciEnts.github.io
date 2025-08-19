@@ -8,32 +8,53 @@ media_subpath: /media/
 
 Explorations into Unity and wave simulations.
 
+
 Wave simulations in games are always tricky.
 It's real time and needs to be efficient.
+
 
 My goal was two fold.
 
 1. Get fun looking water, on modest mobile devices.
 2. VR. Can it run fast enough to maintain a high frame rate in VR?
 
+
+
 I was first aware of Tessendorf water algorithms while working at MPC on a movie called "The Finest Hours".
+
+
 On that project, the water needed to have character, motivation, and tell a story.
 
-That meant we had to make water sims something that animators could control.  That's no easy task.
+
+That meant we had to make water sims something that animators could control, and later drive simulated water iteractions in Houdini.  That's no easy task.
+
 Fortunately, MPC had some top minds exploring the concept.
 
-We ended up using tessendorf water within Maya as an animatable asset. Where animators could control the amplitude, freq and many other parameters to get realtime playback within the viewport.
+
+We ended up using tessendorf water within Maya as an animatable asset. Fully rigged geo plane with animatable controlers.  Where animators could control the amplitude, freq and many other parameters to get realtime playback within the viewport.
+
 
 But what about Unity3d?
 
-Once again, smarter minds had already explored the concept!
-<https://antoniospg.github.io/UnityOcean/OceanSimulation.html>
 
-This was my starting point.  What I was trying to explore was not impossible.
+Once again, smarter minds had already explored the concept!
 
 Unfortunately, this was well over a decade ago, and the experimental Unity Tessendorf I was able to find, no longer exists.
 
-But with enough tweaking, and some HLSL shaders I was able to code from scratch, I was able to get some very promising results.
+
+But I did find this amazing post which presents an even more efficient solution!
+
+Please check out his GIT repo containing a Unity project.
+
+<https://antoniospg.github.io/UnityOcean/OceanSimulation.html>
+
+
+This was basically my starting point.  What I was trying to explore was not impossible.
+
+
+
+With enough tweaking, and some HLSL shaders I was able to code from scratch, I was able to get some very promising results.
+
 Nowadays, Unity has a rhobust node based shader pipeline.
 Back in the day, this was not the case.  Even less so for Mobile deploys.
 
