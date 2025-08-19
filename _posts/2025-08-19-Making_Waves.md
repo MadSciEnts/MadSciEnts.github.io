@@ -66,4 +66,20 @@ Unfortunately, it was some time ago.  But I did find an old screen capture of my
 
 ![Desktop View](/tessendorf_waves_v001.gif){: w="512" h="262" }
 
+I was quite proud of the result with high res textures and quality reflection maps.
 
+
+Some time later, I was exploring the idea of stylized water.
+
+Once again, Tessendorf to the rescue!
+
+I pre rendered a spherical reflection map.
+
+Then, tweaked the shader code for optimization and fewer texture maps.
+Increased the polygon density.
+
+And Voila!!
+![Desktop View](/tessendorf_stylized_v001.gif){: w="488" h="374" }
+
+This was a screen capture from within VR.
+While it didn't quite achieve the brush stroke stylized effect I was going for, I still enjoy the result.
