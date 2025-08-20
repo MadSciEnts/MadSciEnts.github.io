@@ -14,10 +14,10 @@ What if you didn't need special glasses? Would that make the experience any bett
 
 Believe it or not, the technology exists at the consumer level. 
 
-One such product is 'Looking Glass'.
+One such product is 'Light Field Displays' by a company called 'Looking Glass'.
 
 
-Looking Glass is a naked eye holographic display.
+Looking Glass Light Field Displays are type of naked eye holographic display.
 <https://lookingglassfactory.com/>
 It is advertised for use in the fields of medicine and engineering.
 
