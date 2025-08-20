@@ -43,15 +43,20 @@ We render these 48 images into a grid and store them as a single large image rea
 
 ![Desktop View](/test_cube.PNG){: w="256" h="256" }
 
-This is so that no matter the angle you view the display from each eye will perceive a different image. Giving you the illusion of depth. 
+This is so that no matter the angle you view the display from each eye will perceive a different image. Giving you the illusion of depth.
 
-One way we can push this illusion even further is to introduce reflective surfaces in our renders.
+However 3d displays have a limited range of depth. This is often determined by the size of the screen. But almost always proportional.
+
+For example, 3d movies in the theatre can give the illusion of several feet in front of the screen, and many feet deep behind the screen. Smaller displays like the one I was exploring have a limit of a few inches infront, and a few inches deep behind the screen. If you try to exceed these limits it will result in great eye strain and headaches.
+
+
+One way we can push this illusion even further while remaining within display limitations is to introduce reflective surfaces in our renders.
 
 ![Desktop View](/room_single.png){: w="256" h="256" }
 
 In the above example we have a simple room. 
 
-In this room is a mirror. I was curious if this room would add to the sense of depth. 
+In this room is a mirror. I was curious if this mirror would add to the sense of depth. 
 
 The display itself seems to support a relatively shallow physical depth. Roughly 1-2 inches in front and 2-4 inches behind. 
 
