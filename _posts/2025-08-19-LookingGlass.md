@@ -8,7 +8,7 @@ media_subpath: /media/LookingGlass/
 
 For many years, I've been fascinated by 'magic eye' posters and 3d movies. 
 
-The only problem is the strain it puts on or eyes. Often leading to headaches. This is part of the reason 3d movies and TV have fallen out of style. 
+The only problem is the strain it puts on our eyes. Often leading to headaches. This is part of the reason 3d movies and TV have fallen out of style. 
 
 What if you didn't need special glasses? Would that make the experience any better? 
 
