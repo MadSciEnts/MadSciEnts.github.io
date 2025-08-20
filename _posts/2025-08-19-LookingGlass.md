@@ -128,6 +128,7 @@ Going to the opposite extreme, I was curious if fur with fine detail would also 
 Fur isn't shiny. Would it give a decent sense of depth if it has enough range of depth in space?
 
 Sadly, the answer appears to be 'no'.
+The fine detail in the fur isn't captured accurately, due to limitations in resolution. The overall general shape of the fur clumps are presented well enough. But still to soft overall.
 
 ![Desktop View](/fur.gif){: w="256" h="256" }
 
