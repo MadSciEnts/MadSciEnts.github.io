@@ -50,7 +50,7 @@ To push these tests a little bit further, I tried using an example scene with bo
 ![Desktop View](/ocean_single.png){: w="256" h="256" }
 
 
-The sails provided a very clear upper most range (near clip).  While the ocean surface details and waves give us a nice baseline for the neutral point.
+The sails provided a very clear upper most range (near clip).  While the ocean surface details and waves give us a nice baseline for the focal point.
 The ocean depths help us for a nice infinite depth (far clip).
 
 ![Desktop View](/ocean.png){: w="256" h="256" }
