@@ -13,5 +13,7 @@ Stereographic 3d movies and films utilize 2 images.
 One for the left eye, and one for the right eye.
 
 |![Desktop View](/cube_single.png){: w="70" h="95" }|![Desktop View](/cube_singleR.png){: w="70" h="95" }|
-
+>These images are reversed.
+>You can cross your eyes to see the 3d image.
+{: .prompt-tip }
 
