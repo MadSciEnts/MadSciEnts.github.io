@@ -5,6 +5,9 @@ categories: [holography]
 tags: [experiment]
 media_subpath: /media/LookingGlass/
 ---
+# Holographic Displays
+![Desktop View](/ocean.gif){: w="256" h="256" }
+
 
 For many years, I've been fascinated by 'magic eye' posters and 3d movies. 
 
