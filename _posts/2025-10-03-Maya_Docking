@@ -10,4 +10,11 @@ Using PyQT is often the preferred way of delivering useful user interfaces.
 However this is often overkill when prototyping workflows and tools under a time crunch.
 Fortunately Maya comes with it's own set of methods for interacting with scripts and the work scene.
 
+Confirmation Dialog is one such way.
 ![confirm dialog](https://help.autodesk.com/cloudhelp/ENU/MayaCRE-Tech-Docs/gfx/confirmExample.gif)
+```
+cmds.confirmDialog( title='Confirm', message='Are you sure?', button=['Yes','No'], defaultButton='Yes', cancelButton='No', dismissString='No' )
+```
+
+There are limitations with Maya's dialogue windows.  You cannot interact with the work scene while these windows wait for your input.
+They are great for forcing confirmation of a next process (as their name would suggest).
