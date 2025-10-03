@@ -21,7 +21,8 @@ Because of this their use cases are very specific.
 The simplest and most limited form of this is the Confirmation Dialog.
 
 
-##Confirmation Dialog
+
+## Confirmation Dialog
 
 ![confirm dialog](https://help.autodesk.com/cloudhelp/ENU/MayaCRE-Tech-Docs/gfx/confirmExample.gif)
 
@@ -39,7 +40,8 @@ They are great for forcing confirmation of a next process (as their name would s
 For instance before launching a lengthly export process or caching event, it is good practice to confirm with the artist that the elements to be processed are correct.
 
 
-##Maya Native Windows
+
+## Maya Native Windows
 
 Another way is to simply create a floating window using Maya's native commands.
 This allows for more control over how the information is presented.  Text, Input fields, Drop down menus, buttons, etc.
@@ -89,8 +91,11 @@ cmds.workspaceControl("myCustomWorkspaceControl",
 [Workspace Control Documentation](https://help.autodesk.com/cloudhelp/ENU/MayaCRE-Tech-Docs/CommandsPython/workspaceControl.html)
 
 
+
 We can extend this further by utilizing some parameters to allow this dockable area to behave similar to the attribute editor tab.
 Below is the general starting point I like to begin with when rapidly prototyping a toolset or workflow.
+
+
 We begin by declaring a global variable for the name of the window/dockable control.
 Then we define the Main UI. What buttons or controls are drawn in this space.
 A RefreshWindow function is good practice. When updating fields or elements, this can be handy. It is important to check if the dockable control already exists.  If it does, delete it and draw the new one.
