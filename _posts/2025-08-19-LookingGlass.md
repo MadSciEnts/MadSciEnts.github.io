@@ -22,12 +22,16 @@ One such product is 'Light Field Displays' by a company called 'Looking Glass'.
 
 Looking Glass Light Field Displays are type of naked eye holographic display.
 <https://lookingglassfactory.com/>
+
 It is advertised for use in the fields of medicine and engineering.
 
 # Lenticular Printing
+
 The basic idea is the same as those cards they had many years ago. The ones that you could tilt and see different images.
+
 It is called Lenticular Printing.
 [Lenticular Printing Wiki](https://en.wikipedia.org/wiki/Lenticular_printing)
+
 [Lenticular Printing in Modern Day](https://www.imagiam.com/lenticular-software/what-is-lenticular-printing}
 
 This was possible due to the clear plastic cover with grooves in it. The grooves split the view of the image so you should only see one part at a time. 
@@ -40,6 +44,7 @@ Looking Glass displays work in a similar way. With more complicated grooves.
 # Stereoscopics
 
 Stereographic 3d movies and films utilize two (2) images.
+
 One for the left eye, and one for the right eye.
 
 ![Desktop View](/cube_single.png){: w="70" h="95" } ![Desktop View](/cube_singleR.png){: w="70" h="95" }
@@ -48,6 +53,7 @@ One for the left eye, and one for the right eye.
 {: .prompt-tip }
 
 Naked eye holographic displays are a bit more involved.
+
 Instead of just two (2) images for right and left, they use forty-eight (48) images. The result is a range of angles from left to right. 
 
 We render these forty-eight (48) images into a grid and store them as a single large image read by the display.
@@ -58,12 +64,16 @@ This is so that no matter the angle you view the display from each eye will perc
 
 However 3d displays have a limited range of perceived depth. This is determined by the size of the screen and distance to the viewer. But always proportional.
 
-For example, 3d movies in the theatre can give the illusion of several feet in front of the screen, and many feet deep behind the screen. Smaller displays like the one I was exploring have a limit of a few inches infront, and a few inches deep behind the screen. If you try to exceed these limits it will result in great eye strain and headaches.
+For example, 3d movies in the theatre can give the illusion of several feet in front of the screen, and many feet deep behind the screen.
+Smaller displays like the one I was exploring have a limit of a few inches infront, and a few inches deep behind the screen.
+If you try to exceed these limits it will result in great eye strain and headaches.
 
 
 One way we can push this illusion even further while remaining within display limitations is to introduce reflective surfaces in our renders.
 
+
 # Holographic Simple Room
+
 ![Desktop View](/room_single.png){: w="256" h="256" }
 
 In the above example we have a simple room. 
@@ -83,6 +93,8 @@ In the above image you can see the forty-eight (48) images that were rendered. I
 The result, when viewed through the display, is a real sense of depth.
 
 ![Desktop View](/room.gif){: w="256" h="256" }
+
+
 
 
 # Transparency, Refraction and Sense of Depth
@@ -131,6 +143,8 @@ This technology has a lot of promise for medical or architectural displays.
 
 
 But I also feel it would be great for product kiosks or advertisements. Jewelry kiosks could also benefit, without risking theft.
+
+
 
 
 # Further testing
