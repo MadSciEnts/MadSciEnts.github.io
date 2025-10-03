@@ -1,1 +1,13 @@
+---
+title: Maya Dockable Windows
+author: <SW>
+categories: [Maya]
 
+---
+
+Creating workflow tools and scripts in Maya is always a good way to meet impossible deadlines.
+Using PyQT is often the preferred way of delivering useful user interfaces.
+However this is often overkill when prototyping workflows and tools under a time crunch.
+Fortunately Maya comes with it's own set of methods for interacting with scripts and the work scene.
+
+![confirm dialog](https://help.autodesk.com/cloudhelp/ENU/MayaCRE-Tech-Docs/gfx/confirmExample.gif)
