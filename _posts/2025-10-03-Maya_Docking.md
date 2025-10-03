@@ -5,7 +5,7 @@ categories: [Maya]
 tags: [MayaScripts]
 media_subpath: /media/
 ---
-#Dockable Windows in Maya
+# Dockable Windows in Maya
 
 
 ![Dockable Windows in Maya](Bare_Dockable.PNG)
