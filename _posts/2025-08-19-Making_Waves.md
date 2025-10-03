@@ -6,8 +6,8 @@ tags: [water]
 media_subpath: /media/
 ---
 
-Explorations into Unity and wave simulations.
-
+# Explorations into Unity and wave simulations.
+![Desktop View](/tessendorf_waves_v001.gif){: w="512" h="262" }
 
 Wave simulations in games are always tricky.
 >It's real time and needs to be efficient.
