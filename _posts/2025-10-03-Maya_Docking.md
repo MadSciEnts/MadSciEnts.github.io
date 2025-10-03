@@ -33,6 +33,7 @@ The simplest and most limited form of this is the Confirmation Dialog.
 
 ![confirm dialog](https://help.autodesk.com/cloudhelp/ENU/MayaCRE-Tech-Docs/gfx/confirmExample.gif)
 
+
 ```
 cmds.confirmDialog( title='Confirm',
                     message='Are you sure?',
@@ -105,10 +106,12 @@ cmds.workspaceControl("myCustomWorkspaceControl",
                        floating=True,
                        uiScript="createCustomWorkspaceControlUI()");
 ```
+
 [Workspace Control Documentation](https://help.autodesk.com/cloudhelp/ENU/MayaCRE-Tech-Docs/CommandsPython/workspaceControl.html)
 
 
 We can extend this further by utilizing some parameters to allow this dockable area to behave similar to the attribute editor tab.
+
 Below is the general starting point I like to begin with when rapidly prototyping a toolset or workflow.
 
 
