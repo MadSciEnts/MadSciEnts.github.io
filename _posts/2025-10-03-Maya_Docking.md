@@ -110,6 +110,9 @@ cmds.workspaceControl("myCustomWorkspaceControl",
 [Workspace Control Documentation](https://help.autodesk.com/cloudhelp/ENU/MayaCRE-Tech-Docs/CommandsPython/workspaceControl.html)
 
 
+## Practical Use
+
+
 We can extend this further by utilizing some parameters to allow this dockable area to behave similar to the attribute editor tab.
 
 Below is the general starting point I like to begin with when rapidly prototyping a toolset or workflow.
@@ -127,6 +130,7 @@ If it does, delete it and draw the new one.
 
 And finally, there is the CreateDockWindow function that kicks off the whole process.
 
+## Example Template
 
 ```
 import maya.cmds as cmds
