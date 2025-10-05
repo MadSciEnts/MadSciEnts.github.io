@@ -8,21 +8,38 @@ media_subpath: /media/
 
 # Unity Inspector Button
 
+
+
 I really like the idea of customizing how a script is displayed in the Unity Inspector.  Bringing simplified functionality is a very satisfying endeavour.
+
+
 
 Creating custom property drawers is one option. Creating custom inspector windows for each script is also an option.
 However I found the prospect of creating custom property drawers for each custom data type to be an onerous task fraught with frustration, doubly so for custom inspector displays on a per script basis.
 Even with inherited class structures it was often more trouble than they were worth unless you are delivering a final toolset specifically for artists.
 
+
+
 Surely for rapidly prototyping amongst smaller teams there has to be a middle ground of some sort?
+
+
 
 I discovered that there was.
 
+
+
 It is possible to create a generic property drawer to suit this very purpose.
+
+
+Normal script:
 
 <img width="450" height="139" alt="image" src="https://github.com/user-attachments/assets/11531ea9-9695-40b6-b002-debb0f23bd5c" />
 
+Script with a boolean property:
+
 <img width="456" height="78" alt="image" src="https://github.com/user-attachments/assets/17751fb0-8521-4598-a697-b7b9410bc475" />
+
+Boolean property replaced with a functional button: 
 
 <img width="454" height="128" alt="image" src="https://github.com/user-attachments/assets/74f8b2e3-04ea-4414-8dd3-9221edce47c0" />
 
@@ -83,11 +100,14 @@ The button will display the name of the function.
 You can also set the width and center point of the button if you need to make it fit a certain aesthetic.
 
 
+
 ### Syntax
 
 ```
 InspectorButtonAttribute ( string MethodName, string ButtonTitle, float width, float center )
 ```
+
+
 
 
 ## Bulk Buttons!
