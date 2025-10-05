@@ -1,5 +1,5 @@
 ---
-title: Inspector Button
+title: Unity - Inspector Button
 author: <SW>
 categories: [Unity]
 tags: [Scripts]
