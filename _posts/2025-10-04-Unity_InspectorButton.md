@@ -2,7 +2,7 @@
 title: Inspector Button
 author: <SW>
 categories: [Unity]
-tags: [Script]
+tags: [Scripts]
 media_subpath: /media/
 ---
 
