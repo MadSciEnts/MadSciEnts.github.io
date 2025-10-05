@@ -1,8 +1,8 @@
 ---
 title: Looking Glass
 author: <SW>
-categories: [holography]
-tags: [experiment]
+categories: [Holography]
+tags: [Experiment]
 media_subpath: /media/LookingGlass/
 ---
 # Holographic Displays
