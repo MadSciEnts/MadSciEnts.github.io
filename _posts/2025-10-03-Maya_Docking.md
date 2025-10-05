@@ -2,7 +2,7 @@
 title: Maya Dockable Windows
 author: <SW>
 categories: [Maya]
-tags: [MayaScripts]
+tags: [Scripts]
 media_subpath: /media/
 ---
 
