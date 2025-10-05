@@ -1,7 +1,7 @@
 ---
 title: Introduction
 author: <SW>
-categories: [nonTech]
+categories: [NonTech]
 
 ---
 
