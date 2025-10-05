@@ -106,6 +106,7 @@ This way we are not polluting our script with wrappers and decorators we only ne
 
 
 
+
 # InpsectorButton.cs
 
 Here is the full InspectorButton.cs script for you to play with.
@@ -190,9 +191,7 @@ namespace SW
             this.ButtonTitle = ButtonTitle;
             this.ButtonWidth = width;
             this.ButtonCenter = center;
-
         }
-
     }
 
 #if UNITY_EDITOR
@@ -204,10 +203,7 @@ namespace SW
 
         public override void OnGUI(Rect position, SerializedProperty prop, GUIContent label)
         {
-
-
             InspectorButtonAttribute inspectorButtonAttribute = (InspectorButtonAttribute)attribute;
-
 
             label.text = inspectorButtonAttribute.ButtonTitle;
             GUIStyle style = GUI.skin.box;
@@ -235,9 +231,6 @@ namespace SW
                         _eventMethodInfo.Invoke(prop.serializedObject.targetObject, null);
                     else
                         Debug.LogWarning(string.Format("InspectorButton: Unable to find method {0} in {1}", eventName, eventOwnerType));
-
-
-
                 }
             }
             else
@@ -247,18 +240,13 @@ namespace SW
 
                 for (int i = 0; i < methodCount; i++)
                 {
-
                     thisRect.x = (buttonRect.width * i);
                     if (GUI.Button(thisRect, inspectorButtonAttribute.ButtonTitleS[i]))
                     {
                         System.Type eventOwnerType = prop.serializedObject.targetObject.GetType();
                         string eventName = inspectorButtonAttribute.MethodNameS[i];
 
-
-
                         _eventMethodInfo = eventOwnerType.GetMethod(inspectorButtonAttribute.MethodNameS[i], BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
-
-
 
                         if (_eventMethodInfo != null)
                         {
@@ -270,8 +258,6 @@ namespace SW
                     }
                 }
             }
-
-
         }
     }
 #endif
