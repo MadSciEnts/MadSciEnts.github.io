@@ -8,7 +8,7 @@ media_subpath: /media/
 
 # Unity Inspector Button
 
-
+<img width="454" height="73" alt="image" src="https://github.com/user-attachments/assets/add4b339-c339-46f4-ac45-f5690ad2728c" />
 
 I really like the idea of customizing how a script is displayed in the Unity Inspector.  Bringing simplified functionality is a very satisfying endeavour.
 
