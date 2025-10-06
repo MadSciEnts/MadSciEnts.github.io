@@ -8,6 +8,8 @@ media_subpath: /media/unity/
 
 # Unity Blueprint Tests
 
+![Graph Editor](kraken_graph_editor_03.PNG)
+
 There are a lot of issues that arise when creating VR content in Unity3d.
 I was curious if some of these could be resolved with a custom toolset to allow for rapid development with a small team.
 
