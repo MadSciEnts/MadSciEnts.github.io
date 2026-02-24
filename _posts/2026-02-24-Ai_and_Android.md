@@ -155,7 +155,7 @@ I asked it for some alterations.
 
 The result was basically playable.  It still had issues regarding a background star field.
 
-[GitHub Docs](https://github.com/MadSciEnts/ShipShip "ShipShip Repo")
+[GitHub Repo](https://github.com/MadSciEnts/ShipShip "ShipShip Repo")
 
 
 Try it for yourself.
