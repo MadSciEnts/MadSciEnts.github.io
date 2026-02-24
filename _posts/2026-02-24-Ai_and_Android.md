@@ -28,4 +28,6 @@ The result was fast, but not without issue.  There were frequent build errors.  
 I asked it to create a tone generator that would allow for a range of 500-20,000 hz.  It had to run in the background when needed, incorporate light/dark themes. And save the last used settings.
 
 
+Feel free to try it yourself.
 
+[Download the file here](https://github.com/MadSciEnts//user/repository/branch/filename)
