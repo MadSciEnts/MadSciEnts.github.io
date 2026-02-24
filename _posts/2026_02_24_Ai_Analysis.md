@@ -1,4 +1,10 @@
-
+---
+title: Ai - Analysis
+author: <SW>
+categories: [Ai]
+tags: [Android]
+media_subpath: /media/
+---
 
 
 # Abstract
