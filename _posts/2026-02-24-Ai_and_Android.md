@@ -31,7 +31,7 @@ I asked it to create a tone generator that would allow for a range of 500-20,000
 
 Feel free to try it yourself.
 
-[[Download the file here](https://github.com/MadSciEnts/MadSciEnts.github.io/raw/refs/heads/main/media/apk/GDDW_003.apk)
+[Download the file here](https://github.com/MadSciEnts/MadSciEnts.github.io/raw/refs/heads/main/media/apk/GDDW_003.apk)
 
 
 ## Simple Game
@@ -146,4 +146,4 @@ The result was basically playable.  It still had issues regarding a background s
 
 Try it for yourself.
 
-[Download the file here](https://github.com/MadSciEnts/MadSciEnts.github.io/blob/main/media/apk/ShipShip_007.apk)
+[Download the file here](https://github.com/MadSciEnts/MadSciEnts.github.io/raw/refs/heads/main/media/apk/GDDW_007.apk)
