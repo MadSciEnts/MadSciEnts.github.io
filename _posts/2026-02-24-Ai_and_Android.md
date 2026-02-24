@@ -99,14 +99,14 @@ I posed the same question to several Ai Agents.  Gemini, ChatGPT, and Grok.
 
 This was my prompt to each of them:
 
-'''
+```
 Choose a well known and effective framework for creating simple mobile video games.  Similar to a simple action RPG. Describe the framework in detail in such a way that it could be used as a guide for creating a mobile game.
 
 The framework should support a "Top Down" 2.5d game where the player controls a spaceship that has inventory and weapon ports.  The player ship should "evolve" in complexity to support increasing size and number of weapons.  The weapons should be broken up into 3 categories: Projectiles, Beams, Missiles.  The player and enemy classes should inherit from a common base class.  On screen controls should be used.  On Screen Joystick for motion. On Screen buttons for attack and manipulation of inventory.  Spaceships should not have initial motion, but maintain momentum with little or no drag.  Background should be of a particle based starfield that shows parallax.  Color variation should be a prevalent theme denoting importance or rarity of object.  Starfield should have 40% color and intensity variation.  Player HUD should have progress bars for any attributes like health and shield prominently displayed.  An experience counter / bar should be used/shown to indicate when player is going to level up and evolve.  Textures should be procedurally generated for all HUD elements, weapons, and effects using a pixelated style.  Any text should be of a 64x64 character resolution for legibility.
 
 
 Describe this framework as an effective prompt for the creation of a mobile game in Android Studio using Gemini ready to play. 
-'''
+```
 
 
 ### Results
@@ -130,11 +130,11 @@ Grok also suggested LibGDX.  But it gave a more structured prompt to feed Gemini
 Surprisingly the result was basically playable!
 
 I asked it for some alterations.
--Radar System
--Infinite levelling (add weapon slot every 5 levels of experience)
--A 'charge weapon' feature (depleating shields for the sake of a intense blast)
--Debug weapons to jump through experience levels (on the side of the scren).
--Ships that grew in size according to experience level.
+- Radar System
+- Infinite levelling (add weapon slot every 5 levels of experience)
+- A 'charge weapon' feature (depleating shields for the sake of a intense blast)
+- Debug weapons to jump through experience levels (on the side of the scren).
+- Ships that grew in size according to experience level.
 
 
 ![ShipShip_03](https://github.com/user-attachments/assets/619c6105-e1b7-4797-a4ee-2084add2a579)
