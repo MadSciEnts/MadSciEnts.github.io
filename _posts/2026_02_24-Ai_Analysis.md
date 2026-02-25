@@ -7,11 +7,11 @@ media_subpath: /media/
 ---
 
 
-### Abstract
+# Abstract
 
 The investigation tests LLM-driven code generation for Android apps ranging from utility tools to interactive games. Direct iterative prompting with Gemini in Android Studio succeeds for simple applications but fails for complex, evolving projects due to context overload, repetitive errors, and unhandled assumptions in generated code. A meta-approach—using LLMs (notably **Grok**) to craft high-quality framework prompts for subsequent code generation—yields markedly better results, producing a basically playable game. Key limitations include poor handling of procedural textures, text legibility, orientation management, and long conversational histories. The findings highlight prompt engineering as a critical intermediary layer for improving AI-assisted mobile game development outcomes.
 
-### Introduction
+# Introduction
 
 Modern LLMs demonstrate strong code-generation abilities, yet their application to full application development—especially iterative, stateful projects—remains underexplored in real-world IDE integrations like Android Studio's Gemini plugin. This work examines:
 
@@ -22,9 +22,9 @@ Modern LLMs demonstrate strong code-generation abilities, yet their application 
 
 The experiments use consumer-accessible tools (Gemini in Android Studio, supplemented by ChatGPT and Grok) without external libraries beyond those suggested by the models.
 
-### Methods
+# Methods
 
-#### Environment and Tools
+## Environment and Tools
 - **IDE**: Android Studio with integrated Google Gemini
 - **Models**:
   - Primary: Gemini (version/context not specified; IDE-integrated)
@@ -34,7 +34,7 @@ The experiments use consumer-accessible tools (Gemini in Android Studio, supplem
   1. Direct iterative prompting within a single long conversation in Android Studio
   2. Meta-prompting: Instruct LLMs to output a detailed, structured prompt describing a game framework, then feed that prompt to Gemini in Android Studio
 
-#### Experiments
+## Experiments
 1. **Tone Generator App** — Simple audio utility
 2. **Simple Dungeon Crawler** — Basic game with attack/block mechanics
 3. **Asteroids-style Top-Down Space Game** — Physics-based game with momentum, enemies, projectiles
@@ -46,15 +46,15 @@ Detailed prompt used for meta-framework (quoted verbatim from source):
 
 Subsequent refinements (via Grok-generated prompt) added radar, infinite leveling (+1 weapon slot every 5 levels), charge weapon mechanic, debug level-up buttons, and visual ship scaling.
 
-### Results
+# Results
 
-#### 1. Tone Generator
+## 1. Tone Generator
 - Successfully generated functional app
 - Features: 500–20,000 Hz range, background execution, theme support, persistent settings
 - Build errors frequent but auto-resolved by Gemini
 - Outcome: Fully usable APK produced (GDDW_003.apk)
 
-#### 2. Simple Dungeon Crawler
+## 2. Simple Dungeon Crawler
 - Core mechanics (block/attack) implemented
 - Major limitation: Procedural texture generation
   - Refused text/numbers as textures
@@ -63,7 +63,7 @@ Subsequent refinements (via Grok-generated prompt) added radar, infinite levelin
 - Required highly explicit prompting for legible 64×64 text
 - Outcome: Basic but functional game after refinement
 
-#### 3. Asteroids-Style Game (Direct Iteration)
+## 3. Asteroids-Style Game (Direct Iteration)
 - Implemented momentum physics, auto-targeting, parallax starfield attempt
 - Persistent issues:
   - Text rendering failures
@@ -75,7 +75,7 @@ Subsequent refinements (via Grok-generated prompt) added radar, infinite levelin
   - Project became permanently unbuildable
 - Outcome: Complete failure for incremental evolution
 
-#### 4. Meta-Prompt Framework Approach
+## 4. Meta-Prompt Framework Approach
 - **Gemini** (self-prompting): Suggested LibGDX but with incompatible libraries → infinite build-fix loop → unusable
 - **Grok**: Produced coherent, structured LibGDX-based prompt → fed to Gemini → basically playable game
   - Core features: Momentum physics, on-screen joystick/buttons, HUD (health/shield/XP bars), procedural pixelated textures (64×64 text), weapon categories, inheritance structure, color variation
@@ -83,7 +83,7 @@ Subsequent refinements (via Grok-generated prompt) added radar, infinite levelin
 - Remaining issues: Incomplete parallax starfield implementation
 - Outcome: Playable APK produced (GDDW_007.apk); source documentation on GitHub
 
-### Discussion
+# Discussion
 
 The experiments reveal a clear bifurcation in LLM utility for Android game development:
 
@@ -94,7 +94,7 @@ The experiments reveal a clear bifurcation in LLM utility for Android game devel
 
 These findings align with broader observations in LLM research: performance degrades sharply with increasing conversational length and task complexity due to attention dilution and compounding errors in self-referential modifications.
 
-### Conclusion
+# Conclusion
 
 Direct use of Gemini in Android Studio enables rapid creation of simple Android applications but proves unreliable for evolving complex mobile games through iterative prompting. The most effective strategy observed is a **two-stage, cross-model pipeline**:
 
