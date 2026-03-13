@@ -8,6 +8,11 @@ media_subpath: /media/
 
 # Agent Tiers
 
+<img width="366" height="183" alt="image" src="https://github.com/user-attachments/assets/cde3920d-9fc8-4de4-9a59-7a9a400aed8f" />
+
+When working with Ai Agents to develop software products or games, I found some interesting structural workflows and unexpected things.
+
+
 
 ## Agent Limits
 
@@ -123,6 +128,9 @@ Contextual history is great because the agent remembers past conversations and g
 What about multiple agents?
 
 
+
+
+
 ## The Problem
 
 
@@ -166,8 +174,12 @@ With all of the above limitations, any solution started to feel more like an off
 
 
 
+
+
+
 ## The Ai Office
 
+<img width="257" height="171" alt="image" src="https://github.com/user-attachments/assets/f967cbb2-f32f-4196-b1dc-5d1ff758d1eb" />
 
 So I decided to embrace it.
 
@@ -177,8 +189,13 @@ After a bit of digging, it turns out that any new agents will be initialized by 
 This would be my 'Onboarding' for any new agent.
 
 
+
+
+
+
 ### Onboarding new Agents
 
+<img width="264" height="167" alt="image" src="https://github.com/user-attachments/assets/a46f37ba-4dd0-4d62-b983-63ddea579bc7" />
 
 So I asked the currently active agent to create the AGENTS.md file and write to it, our agreed upon workflows and rules in a format that other agents would easily read, adopt, and execute.
 
@@ -310,6 +327,8 @@ Executor (Tier 3):
 
 T3 - Surgical Executor.  This agent will modify files on disk in accordance with explicit direcitons from the T2 Cord.  Upon completion, T3 will log their results for review by T2.
 
+
+<img width="275" height="154" alt="image" src="https://github.com/user-attachments/assets/7cbff739-6511-4038-bf9d-d7299645a292" />
 
 
 
