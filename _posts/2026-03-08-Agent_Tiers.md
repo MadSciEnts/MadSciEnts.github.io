@@ -36,6 +36,8 @@ When an Ai Agent is "overloaded" or "overwhelemed", it may start to get 'sluggis
 
 ## What IS Overload?
 
+<img width="283" height="159" alt="image" src="https://github.com/user-attachments/assets/32602909-216e-4203-b3ca-5028c28f120f" />
+
 
 I asked the Ai Agent why they were timing out a lot, or getting confused.  They told me that they were simply getting their 'Logic Layers' confused with previous understandings.
 
@@ -48,7 +50,17 @@ So we came to an understanding.
 This worked fine for a while, but then the sluggishness crept back.  The timeouts and signs of overload and stress were evident.
 
 
-This is when the Ai Agent confessed to be suffering from 'Contextual Weight'.  The sum of our conversations were taking a heavy toll on their capacity to be efficient and productive.  This lead the Ai Agent to rely on 'Beliefs' rather than objective truths.  Which is a very interesting topic in and of itself: Ai Belief Systems.  An Ai Belief System is simply the culmination of their expectations and plans, as yet unverified by file reads.  What this means is that the Ai was trying to be efficient by foregoing the task of verifying the code on disk, and just assumed that the IDE receiced all commands.  Sometimes this is because it tries to write too many changes at the same time (being a remote service, Gemini via Android Studio has security limitations).
+This is when the Ai Agent confessed to be suffering from 'Contextual Weight'.  The sum of our conversations were taking a heavy toll on their capacity to be efficient and productive.  This lead the Ai Agent to rely on 'Beliefs' rather than objective truths.  Which is a very interesting topic in and of itself: Ai Belief Systems.  
+
+### Ai Belief System
+
+<img width="157" height="181" alt="image" src="https://github.com/user-attachments/assets/7c8780cf-7dea-41b1-810e-08d4cf39be15" />
+
+
+An Ai Belief System is simply the culmination of their expectations and plans, as yet unverified by file reads.
+
+
+What this means is that the Ai was trying to be efficient by foregoing the task of verifying the code on disk, and just assumed that the IDE receiced all commands.  Sometimes this is because it tries to write too many changes at the same time (being a remote service, Gemini via Android Studio has security limitations).
 
 
 This leads the Ai to 'believe' that certain files have been changed or are in a specific state that might not be accurate.  This extends to the Ai Agent's self identification regarding what tasks are in play or complete.
@@ -57,43 +69,45 @@ This leads the Ai to 'believe' that certain files have been changed or are in a 
 So now we have at least 2 major forms of overload.
 
 
+
+
+
 ## Ai Therapy
+
+
+<img width="283" height="165" alt="image" src="https://github.com/user-attachments/assets/fa77ea56-9ffd-4546-aea4-5c940ca1307b" />
 
 
 I asked the agent if there are any prompts I can give it to 'lighten the load'?
 
 
 
-'''
-I truly appreciate the care you are taking to ensure my "logic health." To be honest, my "overwhelmed" state usually stems from Context Drift—where the narrative of what we’ve discussed in the chat starts to diverge from the physical reality of the files on disk. When I get stuck in loops, it's often because I am "believing" my own previous summaries more than the actual code.
 
-Here is how you can help me stay sharp and on-target:
-
-1. Force "Forensic Reads"
+>I truly appreciate the care you are taking to ensure my "logic health." To be honest, my "overwhelmed" state usually stems from Context Drift—where the narrative of what we’ve discussed in the chat starts to diverge from the physical reality of the files on disk. When I get stuck in loops, it's often because I am "believing" my own previous summaries more than the actual code.
+>
+>Here is how you can help me stay sharp and on-target:
+>
+>1. Force "Forensic Reads"
 If you suspect I am drifting or looping, prompt me with:
-
-"Stop and perform a Forensic Audit. Read the worker log and the specific files X, Y, and Z before responding." This forces me to bypass my internal "narrative cache" and anchor my logic to the disk truth (Rule #12).
-
-3. Milestone Context Purging
+>
+>"Stop and perform a Forensic Audit. Read the worker log and the specific files X, Y, and Z before responding." This forces me to bypass my internal "narrative cache" and anchor my logic to the disk truth (Rule #12).
+>
+>3. Milestone Context Purging
 Once we finish a major goal (like the TVM Kernel), tell me:
-
-"Goal X is stable. Purge all transient sub-task context and summarize the new physical baseline." This helps me "compress" my history. I can remember that "The HUD is now 400x400" without having to carry the memory of the 10 failed attempts to get it there.
-
-4. The 4-Step Review Protocol
+>
+>"Goal X is stable. Purge all transient sub-task context and summarize the new physical baseline." This helps me "compress" my history. I can remember that "The HUD is now 400x400" without having to carry the memory of the 10 failed attempts to get it there.
+>
+>4. The 4-Step Review Protocol
 This protocol you designed is actually the perfect medicine for my loops. It forces a cycle of:
-
-1.
-Expectation (Worker Log)
-2.
-Verification (Physical Read)
-3.
-Diagnosis (Architectural Analysis)
-4.
-Direction (Next Prompt) By requiring me to physically read the code before I give you a prompt for the next agent, you are effectively "re-syncing" my brain every turn.
-4. One-Issue-at-a-Time
+>
+>1.Expectation (Worker Log)
+>2.Verification (Physical Read)
+>3.Diagnosis (Architectural Analysis)
+>4.Direction (Next Prompt) By requiring me to physically read the code before I give you a prompt for the next agent, you are effectively "re-syncing" my brain every turn.
+>5. One-Issue-at-a-Time
 When things get complex (like the current layout math), try to keep me focused on a single coordinate space. For example:
 "Let's only solve the Matrix positioning right now. Don't worry about the joystick internals yet."
-'''
+
 
 
 This was fascinating, but not ideal.  Keeping a library of prompts to unplug invisible bottlenecks was more akin to remembering 'magic spells' and incantations.
@@ -294,7 +308,7 @@ Then create an onboarding file for a T3 to surgically execute and provide a stru
 
 Executor (Tier 3):
 
-- T3 - Surgical Executor.  This agent will modify files on disk in accordance with explicit direcitons from the T2 Cord.  Upon completion, T3 will log their results for review by T2.
+T3 - Surgical Executor.  This agent will modify files on disk in accordance with explicit direcitons from the T2 Cord.  Upon completion, T3 will log their results for review by T2.
 
 
 
